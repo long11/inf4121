@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="new_user">new_user</a></td></tr>
+<tr><td><a href="change_password_after_created_new_user">Change password after created new user</a></td></tr>
+<tr><td><a href="log_out">Log out</a></td></tr>
+<tr><td><a href="log_in_with_wrong_username">Log in with wrong username</a></td></tr>
+<tr><td><a href="log_in_with_wrong_password">Log in with wrong password</a></td></tr>
+<tr><td><a href="log_in_normal">Log in normal</a></td></tr>
+<tr><td><a href="select_an_item">Select an item</a></td></tr>
+<tr><td><a href="select_a_new_item_different">Select an new item (different)</a></td></tr>
+<tr><td><a href="remove_the_first_item">Remove the first item</a></td></tr>
+<tr><td><a href="checkout">Checkout</a></td></tr>
+<tr><td><a href="change_number_of_items">Change number of items</a></td></tr>
+<tr><td><a href="finalize_order">Finalize order</a></td></tr>
+<tr><td><a href="log_out_last">Log out</a></td></tr>
+</tbody></table>
+</body>
+</html>
