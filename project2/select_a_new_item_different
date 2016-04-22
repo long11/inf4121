@@ -4,26 +4,81 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://demo.avactis.com/" />
-<title>Select an new item (different)</title>
+<title>Select a new item (different)</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Select an new item (different)</td></tr>
+<tr><td rowspan="1" colspan="3">Select a new item (different)</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/4.7.9/product-info.php?Custom_T-Shirt_-_Upload_your_own_design-pid35.html</td>
+	<td>/4.7.9/</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=(//a[contains(text(),'Sport')])[2]</td>
+	<td>link=Sign In</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>//input[@value='Add To Cart']</td>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Email]</td>
+	<td>longhh@math.uio.no</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Password]</td>
+	<td>long11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][RePassword]</td>
+	<td>long11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][FirstName]</td>
+	<td>Long</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][LastName]</td>
+	<td>Ho</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=customer_info_Customer_State</td>
+	<td>label=Washington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][ZipCode]</td>
+	<td>Washington DC</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][City]</td>
+	<td>Washington DC</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Streetline1]</td>
+	<td>wash hington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Phone]</td>
+	<td>12345678</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Register']</td>
 	<td></td>
 </tr>
 

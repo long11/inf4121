@@ -1,87 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head profile="http://selenium-ide.openqa.org/profiles/test-case">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://demo.avactis.com/" />
-<title>new_user</title>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
 </head>
 <body>
-<table cellpadding="1" cellspacing="1" border="1">
-<thead>
-<tr><td rowspan="1" colspan="3">new_user</td></tr>
-</thead><tbody>
-<tr>
-	<td>open</td>
-	<td>/4.7.9/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Sign In</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=button.btn.btn-default</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Email]</td>
-	<td>longhh@math.uio.no</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Password]</td>
-	<td>long11</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][RePassword]</td>
-	<td>long11</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][FirstName]</td>
-	<td>Long</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][LastName]</td>
-	<td>Ho</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=customer_info_Customer_State</td>
-	<td>label=Washington</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][ZipCode]</td>
-	<td>Washington DC</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][City]</td>
-	<td>Washington DC</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Streetline1]</td>
-	<td>wash hington</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Phone]</td>
-	<td>12345678</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//input[@value='Register']</td>
-	<td></td>
-</tr>
-
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="new_user">New user</a></td></tr>
+<tr><td><a href="change_password_after_created_new_user">Change password after created new user</a></td></tr>
+<tr><td><a href="log_out">Log out</a></td></tr>
+<tr><td><a href="log_in_with_wrong_username">Log in with wrong username</a></td></tr>
+<tr><td><a href="log_in_with_wrong_password">Log in with wrong password</a></td></tr>
+<tr><td><a href="log_in_normal">Log in normal</a></td></tr>
+<tr><td><a href="select_an_item">Select an item</a></td></tr>
+<tr><td><a href="select_a_new_item_different">Select a new item (different)</a></td></tr>
+<tr><td><a href="remove_the_first_item">Remove the first item</a></td></tr>
+<tr><td><a href="checkout">Checkout</a></td></tr>
+<tr><td><a href="change_number_of_items">Change number of items</a></td></tr>
+<tr><td><a href="finalize_order">Finalize order</a></td></tr>
+<tr><td><a href="log_out_last">Log out</a></td></tr>
 </tbody></table>
 </body>
 </html>
