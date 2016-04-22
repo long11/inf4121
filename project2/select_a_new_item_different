@@ -13,72 +13,17 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/4.7.9/</td>
+	<td>/4.7.9/product-info.php?Custom_T-Shirt_-_Upload_your_own_design-pid35.html</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Sign In</td>
+	<td>xpath=(//a[contains(text(),'Sport')])[2]</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>css=button.btn.btn-default</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Email]</td>
-	<td>longhh@math.uio.no</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Password]</td>
-	<td>long11</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][RePassword]</td>
-	<td>long11</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][FirstName]</td>
-	<td>Long</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][LastName]</td>
-	<td>Ho</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=customer_info_Customer_State</td>
-	<td>label=Washington</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][ZipCode]</td>
-	<td>Washington DC</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][City]</td>
-	<td>Washington DC</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Streetline1]</td>
-	<td>wash hington</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=customer_info[Customer][Phone]</td>
-	<td>12345678</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//input[@value='Register']</td>
+	<td>click</td>
+	<td>//input[@value='Add To Cart']</td>
 	<td></td>
 </tr>
 
