@@ -83,12 +83,12 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Manage Personal Info</td>
+	<td>//input[@value='Register']</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//input[@value='Register']</td>
+	<td>link=Manage Personal Info</td>
 	<td></td>
 </tr>
 </tbody></table>
