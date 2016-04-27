@@ -14,7 +14,9 @@
 <tr><td><a href="log_in_with_wrong_username">Log in with wrong username</a></td></tr>
 <tr><td><a href="log_in_with_wrong_password">Log in with wrong password</a></td></tr>
 <tr><td><a href="log_in_normal">Log in normal</a></td></tr>
-<tr><td><a href="select_an_item">Select an item</a></td></tr>
+<tr><td><a href="select_an_item_first">Select an item</a></td></tr>
+<tr><td><a href="remove_item_first">Remove the item</a></td></tr>
+<tr><td><a href="select_an_item">Select the same item</a></td></tr>
 <tr><td><a href="select_a_new_item_different">Select a new item (different)</a></td></tr>
 <tr><td><a href="remove_the_first_item">Remove the first item</a></td></tr>
 <tr><td><a href="checkout">Checkout</a></td></tr>
